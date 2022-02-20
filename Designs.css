@@ -1,16 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
+
+
 * {
 	padding: 0px;
 	margin: 0px;
 	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
 }
 
 .background {
 	width: 100%;
-	height: 100vh;
-	background-image:url(./images/background.jpeg);
+	height: 120vh;
+	background-image:url(./images/c.jpg);
 	background: linear-gradient(rgba(5, 136, 0, 0.5) rgba(5, 136, 0, 0.5));
 	background-position: center;
 	background-size: cover;
+	overflow-x: hidden;
 }
 
 nav {
@@ -20,7 +25,8 @@ nav {
 	padding: 18px 8%;
 	width: 100%;
 	font-weight: 500;
-	transition: 1s;
+
+
 }
 
 nav ul li{
@@ -30,11 +36,164 @@ nav ul li{
 }
 
 nav ul li a{
-	color: black;
+	color: whitesmoke;
 	text-decoration: none;
 	font-weight: 500;
+	padding: 10px;
+	margin: 10px;
 }
 
 nav:hover {
-	background: white;
+	background: darkblue;
+	transition: 0.5s;
 }
+
+.container {
+	margin: 50px;
+	color: whitesmoke;
+	align-content: center;
+}
+
+.container h1 {
+	font-size: 120px;
+	line-height: 140px;
+	font-weight: 600;
+	opacity: 0;
+}
+
+.container p {
+	max-width: 500px;
+	opacity: 0;
+	line-height: 30px;
+	display: block;
+	justify-content:center ;
+}
+
+.container a {
+	text-decoration: none;
+	color: whitesmoke;
+	background-color: #8A38BA;
+}
+
+.click {
+	border: 2px solid white;
+	border-radius: 30px;
+	padding: 10px 35px;
+	margin-right: 15px;
+	animation: slideleft 2s linear forwards;
+}
+
+.ani {
+	animation: slideleft 1s linear forwards;
+}
+
+@keyframes	slideleft{
+	0%{
+		transform: translate(100px);
+		opacity: 0;
+	}
+	100%{
+		transform: translate(0px);
+		opacity: 1;
+	}
+}
+
+.ani{
+	animation-delay: 1s;
+} 
+
+.click {
+	animation-delay: 1s;
+}
+
+.center { 
+	display: inline;
+	text-align: center;
+	margin: 10px;
+	color: whitesmoke;
+}
+
+.center p {
+	margin: 10px;
+	padding: 10px;
+}
+
+#leftlogo {	
+	height: 100px;
+}
+
+#about, #projects{
+	width: 100%;
+	height: 125vh;
+	background-image:url(./images/download.jfif);
+	background: linear-gradient(rgba(5, 136, 0, 0.5) rgba(5, 136, 0, 0.5));
+	background-position: center;
+	background-size: cover;
+	overflow-x: hidden;
+
+}
+
+.row {
+	color: whitesmoke;
+	letter-spacing: 1px;
+}
+
+h2 {
+	text-align: center;
+	margin: 10px;
+	color: whitesmoke;
+	padding: 100px 0px;
+}
+
+#about {
+	color: whitesmoke;
+}
+
+.card-img-top {
+	height: 300px;
+}
+.card-body {
+	background-color: grey;
+}
+
+span {
+	color: hotpink;
+}
+
+#contacts {
+	width: 100%;
+	height: 125vh;
+	background-image:url(./images/download.jfif);
+	background: linear-gradient(rgba(5, 136, 0, 0.5) rgba(5, 136, 0, 0.5));
+	background-position: center;
+	background-size: cover;
+	overflow-x: hidden;
+}
+
+footer {
+	background-color: black;
+}
+
+.social-icon {
+	color: #aaaaaa;
+	text-decoration: none;
+	margin: 0px 125px;
+	font-size: 50px;
+}
+
+iframe {
+	justify-content:center ;
+	margin: 0px 350px;
+}
+
+#find {
+	width: 100%;
+	height: 125vh;
+	background-image:url(./images/download.jfif);
+	background: linear-gradient(rgba(5, 136, 0, 0.5) rgba(5, 136, 0, 0.5));
+	background-position: center;
+	background-size: cover;
+	overflow-x: hidden;
+
+}
+

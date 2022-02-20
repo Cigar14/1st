@@ -8,42 +8,121 @@
 		<link rel="stylesheet" type="text/css" href="Designs.css">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="images">
+		<script src="https://kit.fontawesome.com/71a16aa4bc.js" crossorigin="anonymous"></script>
 	</head>
 	<body>
+		<div class="background" id="start">
+			<nav class="navbar navbar-light">
+				<div><a href="#start"><img src="./images/icon.png" id="leftlogo"></a></div>
+				<ul>
+					<li><a href="#start">Home</a></li>
+					<li><a href="#about">About</a></li>			
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contacts">Contacts</a></li>
+				</ul>
+			</nav>
+		
+			<div class="container">
+				<h1 class="ani">GREETINGS!</h1>
+				<p class="ani">Welcome to my 1st website. Learn more about me and my future projects by clicking the button below. 
+				</p>
+				<a class="click" href="#about" role="button">Get to know me</a>
+			</div>
+		</div>
 
-	<div class="background">
-		<nav class="navbar navbar-light">
-			<div>ICON HERE</div>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>			
-				<li><a href="#">Projects</a></li>
-				<li><a href="#">Contacts</a></li>
-			</ul>
-		</nav>
-	</div>
+		<div class="container-fluid" id="about">
+			<section class="center">
+				<h1>ABOUT<span>ME</span></h1>
+			</section>
+			<div class="row">
+	                <div class="col-12 col-md-6 order-md-first">
+	                    <h3>IT'S MEEEE!!!</h3>
+	                    <p>Hello! I'm Craig Brian R. Guarino 20 years old, aiming to be a FULLSTACK WEB DEVELOPER here in the Philippines.
+	                    Currently I'm unexperienced and this is my first time learning programming. I'm hoping to improve my skill to land a web developing job.</p>
+	                </div>
+	                <div class="col-12 col-md-6 order-first">
+	                    <img src="https://www.cloudways.com/blog/wp-content/uploads/Rest-API-introduction.jpg" class="img-fluid">
+	                </div>
+	      	</div>
+		</div>
+
+		<div class="container-fluid" id="projects">
+			<h2>MY<span>PROJECTS</span></h2>
+			<div class="card">
+				<div class="m-3 d-flex justify-content-center">
+					<div class="card mx-auto">
+						<img src="https://via.placeholder.com/250x300"class="card-img-top">
+						<div class="card-body">
+							<h5 class="card-title">Project 1</h5>
+							<p class="card-text">(WORK IN PROGRESS)</p>
+						</div>
+					</div>
+					<div class="card mx-auto">
+						<img src="https://via.placeholder.com/250x300"class="card-img-top">
+						<div class="card-body">
+							<h5 class="card-title">Project 2</h5>
+							<p class="card-text">(WORK IN PROGRESS)</p>
+						</div>
+					</div>
+					<div class="card mx-auto">
+						<img src="https://via.placeholder.com/250x300" class="card-img-top">
+						<div class="card-body">
+							<h5 class="card-title">Project 3</h5>
+							<p class="card-text">(WORK IN PROGRESS)</p>
+						</div>
+					</div>		
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid" id="contacts">
+			<h2>CONTACT<span>ME</span></h2>
+			<form class="row">
+				<div class="form-group col-md-6">
+			       	<label for="full-name">Full Name:</label>
+			        <input type="text" class="form-control" id="full-name" name="full-name" required>
+			    </div>
+			    <div class="form-group col-md-6">
+			    	<label for="email">Your Email:</label>
+			        <input type="email" class="form-control" id="email" name="email" required>
+			    </div>
+			    <div class="form-group col-md-12">
+			        <label for="subject">Subject:</label>
+			        <input type="text" class="form-control" id="subject" name="subject" required>
+			   </div>
+			    <div class="form-group col-md-12">
+			        <label for="message">Concern:</label>
+			        <textarea name="message" id="message" class="form-control" rows="3" ></textarea>
+			    </div>
+			    <div class="form-group col-md-12">
+			    	<button type="submit" class="btn btn-secondary">Send</button>
+			    </div>
+			</form>
+
+		</div>
+		<div class="container-fluid justify-content-center" id="find">	
+			<h2>FIND ME HERE!!!</h2>
+			<div id="outer-div">
+				<div id="map_go">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3857.1836056494353!2d121.06982011432251!3d14.814949975760687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397af64ca346331%3A0x2a85408197e07cb!2sStarmall!5e0!3m2!1sen!2sph!4v1645381734996!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				</div>
+			</div>
+		</div>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	
 		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 	
 	</body>
+	<footer>
+    	<div class="col-12">
+            <div class="nav justify-content-center align-items-center h-100">
+            <a href="https://www.facebook.com/marcallen.nanong/" target="_blank"><i class="mx-3 fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/evilhare11" target="_blank"><i class="mx-3 fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/evilhare11" target="_blank"><i class="mx-3 fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UCvFlYtXa3LXg2hhTVD9Bbmg" target="_blank"><i class="mx-3 fab fa-youtube"></i></a>
+        </div>
+	</footer>
 </html>
