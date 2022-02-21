@@ -196,4 +196,8 @@ iframe {
 	overflow-x: hidden;
 
 }
+#pic {
+	height: 500px;
+	margin: 100px;
+}
 
